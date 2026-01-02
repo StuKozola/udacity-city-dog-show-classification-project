@@ -2,19 +2,19 @@ Questions regarding Uploaded Image Classification:
 
 1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
 
-Answer: 
+Answer: Yes, all three reported the dog images to be a collie.  This is not completely accurate, as the image is of a shetland sheepdog, which is really a minature collie/
 
 
 2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
 
-Answer: 
+Answer: Yes, collie for both the original and flipped images.
 
 
 3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
 
-Answer: 
+Answer: AlexNet misclassified the image of the Koala Bear as a marmoset.  ResNet and VGG both captured the correct animal.
 
 
 4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
 
-Answer:
+Answer:Based upon the test here, both VGG and ResNET performed the same, so really can not differentiate by this test.  AlexNet did not capture the Koala Bear so can be ruled out.  Based upon the other test performed in the pet_images folder.  VGG appears to be the best performing model
