@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/check_images.py
-#
-# TODO 0: Add your information below for Programmer & Date Created.                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                  
-# REVISED DATE: 
+# TODO 0: - Add your name and date below
+# PROGRAMMER: Stuart Kozola
+# DATE CREATED:2026-01-02                                  
+# REVISED DATE: 2026-01-0
 # PURPOSE: Classifies pet images using a pretrained CNN model, compares these
 #          classifications to the true identity of the pets in the images, and
 #          summarizes how well the CNN performed on the image classification task. 
@@ -40,7 +39,7 @@ from print_results import print_results
 # Main program function defined below
 def main():
     # TODO 0: Measures total program runtime by collecting start time
-    start_time = 
+    start_time = time()
     
     # TODO 1: Define get_input_args function within the file get_input_args.py
     # This function retrieves 3 Command Line Arugments from user as input from
@@ -116,10 +115,10 @@ def main():
     print_results(results, results_stats, None, True, True)
     
     # TODO 0: Measure total program runtime by collecting end time
-    end_time =
+    end_time = time()
     
     # TODO 0: Computes overall runtime in seconds & prints it in hh:mm:ss format
-    tot_time = #calculate difference between end time and start time
+    tot_time = end_time - start_time
     print("\n** Total Elapsed Runtime:",
           str(int((tot_time/3600)))+":"+str(int((tot_time%3600)/60))+":"
           +str(int((tot_time%3600)%60)) )
